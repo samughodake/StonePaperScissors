@@ -59,13 +59,13 @@ function showResult(yourChoice, computerChoice, message) {
     var src = document.querySelector('.headings');
     src.appendChild(computerHeading);
 
-    yourImage = `${yourChoice}` + ".jpg";
+    yourImage = "/StonePaperScissors/"+`${yourChoice}` + ".jpg";
     var img1 = document.createElement("img");
     img1.src = yourImage;
     var src = document.querySelector('.images');
     src.appendChild(img1);
 
-    computerImage = `${computerChoice}` + ".jpg";
+    computerImage = "/StonePaperScissors/"+`${computerChoice}` + ".jpg";
     var img2 = document.createElement("img");
     img2.src = computerImage;
     var src = document.querySelector('.images');
